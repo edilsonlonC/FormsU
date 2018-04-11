@@ -1,0 +1,27 @@
+fieldset{
+	background-color: #D8D8D8;
+	width: 25%;
+	margin: 0 auto;
+	border-radius: 6px;
+	padding: 20px;
+	box-shadow: 5px 5px 5px 5px #000000;
+}
+
+legend{
+	background-color: #071418;
+	color: #FFFFFF;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+label, input{
+	margin-bottom: 8px;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+th{
+	background-color: #FF0080;
+}

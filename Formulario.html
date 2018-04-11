@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi primer Formulario</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<!--Inicio del Formulario-->
+	<fieldset>
+		<legend>Formulario</legend>
+		<form action="instancias/saveUser.php" method="POST">
+			<label for="nombre">Nombre: </label>
+			<input type="text" id="nombre" name="nombre" placeholder ="Nombre" required="true">
+			<br/>
+			<label for="apellido">Primer Apellido: </label>
+			<input type="text" name="apellido1" id="apellido1" placeholder="Apellido"  required="true">
+			<br/>
+			<label for="apellido2">Segundo Apellido: </label>
+			<input type="text" name="apellido2" id="apellido2" placeholder="Apellido">
+			<br/>
+			<label for="email">Email: </label>
+			<input type="email" name="email" id="email" placeholder="Email"  required="true">
+			<br/>
+			<button type="submit">Enviar</button>
+		</form>
+	</fieldset>
+	<!--Fin del formulario-->
+</body>
+</html>

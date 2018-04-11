@@ -1,0 +1,42 @@
+
+
+body{
+	background:  #a5e5d1  ;
+	margin: 50px;
+	padding: 100px;
+}
+div{
+	background: #DAF7A6;
+	width: 25%;
+	box-shadow: 5px 5px 8px #000;
+
+}
+label{
+	font-size: 12px;
+}
+
+form {
+	background:  #DAF7A6 ;
+	width: 25%;
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 5px 5px 8px #000;
+	float: none;
+
+
+
+}
+
+input{
+	width: 100%;
+	margin: 5px;
+	padding: 20px
+	border: 1px solid #ccc;
+	/*outline:0px;*/
+}
+
+input:focus{
+	border: 1px solid #000;
+
+}
